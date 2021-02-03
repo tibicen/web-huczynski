@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500");
+
+body {
+  background-color: #f2f2f2;
+}
+
+* {
+  color: #6e6e6e;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 13em;
+  max-height: 27em;
+  overflow: hidden;
+  position: relative;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+.logos a {
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: .5em;
+}
+
+.logos h1 {
+  width: 100vw;
+  text-align: center;
+}
+
+.logo-wojtek,
+.logo-dawid {
+  height: 7em;
+  margin: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: .5em;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+@media (min-width: 600px) {
+  .logos {
+    width: 22em;
+  }
+  .logos a{
+    width: 10em;
+  }
+}
